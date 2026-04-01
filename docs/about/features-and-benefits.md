@@ -4,9 +4,9 @@ In cloud-native organizations, developers frequently take on responsibility for 
 
 As such, the Ambassador Edge Stack is designed to be used by both developers and operators.
 
-## Self-Service via Kubernetes Annotations
+## Self-Service via Kubernetes CRDs
 
-The Ambassador Edge Stack is built from the start to support _self-service_ deployments -- a developer working on a new service doesn't have to go to Operations to get their service added to the mesh, they can do it themselves in a matter of seconds. Likewise, a developer can remove their service from the mesh, or merge services, or separate services, as needed, at their convenience. All of these operations are performed via Kubernetes annotations, so it can easily integrate with your existing development workflow.
+The Ambassador Edge Stack is built from the start to support _self-service_ deployments -- a developer working on a new service doesn't have to go to Operations to get their service added to the mesh, they can do it themselves in a matter of seconds. Likewise, a developer can remove their service from the mesh, or merge services, or separate services, as needed, at their convenience. All of these operations are performed via Kubernetes CRDs, so it can easily integrate with your existing development workflow.
 
 ## Flexible Canary Deployments
 

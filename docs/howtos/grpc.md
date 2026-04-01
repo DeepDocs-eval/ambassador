@@ -78,7 +78,7 @@ kind: Mapping
 metadata:
   name: grpc-py
 spec:
-  grpc: True
+  grpc: true
   prefix: /helloworld.Greeter/
   rewrite: /helloworld.Greeter/
   service: grpc-example
@@ -264,8 +264,8 @@ spec:
   grpc: True
   tls: upstream
   prefix: /hello.Greeter/
-  rewrite: /hello.Greeter/
-  service: https://grpc-py
+  prefix: /helloworld.Greeter/
+  rewrite: /helloworld.Greeter/
 
 ---
 apiVersion: v1

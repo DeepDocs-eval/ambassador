@@ -106,4 +106,4 @@ spec:
 | `.Revision.Rev`           | The git hash of the revision. |
 | `.Revision.Prefix`        | The Prefix of the revision. This is the same as the project prefix for production revisions and a preview prefix for preview revisions |
 | `.Revision.Image`         | The image built for this revision. |
-| `.Revision.PullSecret`    | The name of the pull secret for the image revision. |
+| `.Revision.Name`          | The name of the pull secret for the image revision. |
